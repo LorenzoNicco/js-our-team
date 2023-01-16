@@ -9,6 +9,10 @@
         Milestone 2:
             1. Creare un elemento html (div?) dove poter stampare.
             2. Stampare le stesse informazioni in pagina, sottoforma di stringhe
+        Bonus 1.
+            Trasformare la stringa foto in una immagine effettiva
+        Bonus 2.
+            Organizzare i singoli membri in card/schede
 */
 console.log("Collegamento  file js ok");
 
@@ -58,32 +62,32 @@ const teamMembers = [
     {
         completeName: "Wayne Barnett",
         role: "Founder & CEO",
-        profilePic: "wayne-barnett-founder-ceo.jpg"
+        profilePic: `<img src="../img/wayne-barnett-founder-ceo.jpg">`
     },
     {
         completeName: "Angela Caroll",
         role: "Chief Editor",
-        profilePic: "angela-caroll-chief-editor.jpg"
+        profilePic: `<img src="../img/angela-caroll-chief-editor.jpg">`
     },
     {
         completeName: "Walter Gordon",
         role: "Office Manager",
-        profilePic: "walter-gordon-office-manager.jpg"
+        profilePic: `<img src="../img/walter-gordon-office-manager.jpg">`
     },
     {
         completeName: "Angela Lopez",
         role: "Social Media Manager",
-        profilePic: "angela-lopez-social-media-manager.jpg"
+        profilePic: `<img src="../img/angela-lopez-social-media-manager.jpg">`
     },
     {
         completeName: "Scott Estrada",
         role: "Developer",
-        profilePic: "scott-estrada-developer.jpg"
+        profilePic: `<img src="../img/scott-estrada-developer.jpg">`
     },
     {
         completeName: "Barbara Ramos",
         role: "Graphic Designer",
-        profilePic: "barbara-ramos-graphic-designer.jpg"
+        profilePic: `<img src="../img/barbara-ramos-graphic-designer.jpg">`
     }
 ];
 console.log("Team", teamMembers);
