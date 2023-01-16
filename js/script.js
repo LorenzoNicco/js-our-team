@@ -91,6 +91,26 @@ console.log("Team", teamMembers);
 // Milestone 1
 for (let i = 0; i < teamMembers.length; i++) {
     for (let key in teamMembers[i]) {
-        console.log("key", teamMembers[i][key]);
+        console.log(teamMembers[i][key]);
+    }
+}
+
+// Milestone 2
+// const canvas = document.getElementById("canvas");
+
+// for (let i = 0; i < teamMembers.length; i++) {
+//     for (let key in teamMembers[i]) {
+//         canvas.innerHTML += teamMembers[i][key] + "<br>";
+//     }
+// }
+
+// Milestone 2 versione alternativa
+for (let i = 0; i < teamMembers.length; i++) {
+    const myDiv = document.createElement("div");
+    myDiv.style.marginBottom = "2rem";
+    canvas.append(myDiv);
+    
+    for (let key in teamMembers[i]) {
+        myDiv.innerHTML += teamMembers[i][key] + "<br>";
     }
 }
